@@ -1,3 +1,9 @@
+#!/usr/bin/python3
+""" FizzBuzz
+"""
+import sys
+
+
 def fizzbuzz(n):
     """
     FizzBuzz function prints numbers from 1 to n separated by a space.
@@ -20,4 +26,8 @@ def fizzbuzz(n):
         else:
             tmp_result.append(str(i))
     print(" ".join(tmp_result))
+
+
+if __name__ == '__main__':
+    fizzbuzz(50)
 
